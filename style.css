@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  background-color: rgba(122, 177, 149, 0.553);
+  color: rgb(8, 37, 41);
+  padding: 10px;
+  text-align: center;
+}
+nav {
+  background-color: rgb(222, 241, 201);
+  padding: 10px;
+  padding-left: 30px;
+  font-weight: 700;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+nav a:hover {
+  color: rgb(26, 36, 88);
+  background-color: aqua;
+  padding: 5px;
+  margin-right: 15px;
+}
+.container {
+  margin: 10px;
+  display: flex;
+  gap: 5px;
+}
+aside {
+  width: 30%;
+  border: 2px solid rgb(25, 167, 167);
+  border-radius: 8px;
+}
+aside h3 {
+  margin-top: 0px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding: 10px;
+  padding-left: 40px;
+  background-color: rgb(222, 241, 201);
+}
+aside li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  text-align: left;
+}
+aside a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+}
+aside a:hover {
+  background-color: #b1b776;
+  padding: 2px 5px;
+}
+
+.fb {
+  color: blue;
+}
+.insta {
+  color: rgb(224, 15, 120);
+}
+.pinterest {
+  color: rgb(227, 2, 17);
+}
+.spotify {
+  color: rgb(30, 215, 96);
+}
+main {
+  width: 70%;
+  border: 2px solid rgb(25, 167, 167);
+  border-radius: 8px;
+}
+main h2 { 
+  text-align: center;
+  background-color: rgb(134, 203, 225);
+  padding: 7px;
+  margin-top: 0px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+label {
+  display: block;
+  margin-left: 15px;
+}
+input,
+select {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  width: 60%;
+  padding: 5px;
+  border-color: aqua;
+  border-radius: 7px;
+}
+select {
+  background-color: rgba(197, 230, 162, 0.577);
+}
+input[type="submit"] {
+  background-color: rgba(121, 197, 222, 0.9);
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(181, 212, 196);
+  padding: 15px 10px 1px 10px;
+  text-align: center;
+  color: rgb(8, 37, 41);
+  font-weight: 700;
+  line-height: 7px;
+}
